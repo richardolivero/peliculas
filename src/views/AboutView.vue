@@ -1,5 +1,15 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <catalogo />
   </div>
 </template>
+<script>
+import catalogo from '@/components/catalogo.vue'
+
+export default {
+  name: 'HomeView',
+  components: {
+    catalogo
+  }
+}
+</script>
